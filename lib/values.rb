@@ -9,5 +9,18 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+ total_items= []
+groceries.each do |keys,list_of_items|
+#	binding.pry
+list_of_items.each do |food|
+#binding.pry
+	
+total_items << food
+#binding.pry
+end
+
+end
+
+
+total_items#code your solution here!
 end
